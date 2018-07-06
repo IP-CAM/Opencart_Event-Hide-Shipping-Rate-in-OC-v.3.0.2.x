@@ -15,14 +15,14 @@ An Opencart event to disable flat rate as soon as the minimum order limit has be
 
 ## Event structure
 The event is structured with the following attributes
-Code   : Value shown in Opencart.
-Trigger: Moment on which the event is executed.
-Action : The file and public function that is executed.
+* Code   : Value shown in Opencart.
+* Trigger: Moment on which the event is executed.
+* Action : The file and public function that is executed.
 
 *Values*
-Code   : shipping_disablerate
-Trigger: catalog/controller/checkout/shipping_method/after
-Action : event/shippingrate/disablerate
+* Code   : shipping_disablerate
+* Trigger: catalog/controller/checkout/shipping_method/after
+* Action : event/shippingrate/disablerate
 
 ## Remarks
 - It is always recommended that you create a backup of your files and database before applying changes.
