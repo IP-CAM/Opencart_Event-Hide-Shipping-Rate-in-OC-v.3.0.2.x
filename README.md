@@ -11,7 +11,7 @@ An Opencart event to disable flat rate as soon as the minimum order limit has be
 
 ## Installation instructions
 1. Execute AddEvent.sql on your Opencart database.
-2. Add Shipping
+2. Add shippingrate.php to DOMAIN/catalog/controller/event/
 
 ## Event structure
 The event is structured with the following attributes
